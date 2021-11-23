@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body,
+#image_1,
+#image_2{
+    height:100%;
+    text-align: center;
+    font-family:'Impact';
+    padding:0;
+    margin:0;
+}
+body{
+    background:#ffca00;
+}
+.wrapper{
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+}
+
+#image_2{
+    display:none;
+}
+
+img{
+    width:95%;
+    margin:20px 0;
+    border: 3px solid #000;
+}
+
+button{
+    width:95%;
+    margin:5px 0;
+    padding:5px;
+    text-transform: uppercase;
+    font-weight:700;
+    background:white;
+    color:black;
+    border:3px solid #000;
+    font-size:16px;
+}
+button:hover{
+    background:#f1f1f1;
+    cursor:pointer;
+}
